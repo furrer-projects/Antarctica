@@ -1,10 +1,12 @@
 package Antarctica
 
 type Block struct{
-	epoch			uint
+	// data location
 	network			string					// network id
 	chain			string 					// chain id
+	epoch			uint
 	index			uint
+	// block data
 	nonce			string
 	hash			string
 	previous 		string
